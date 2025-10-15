@@ -1,0 +1,26 @@
+meta {
+  name: Criar novo Link
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:3333/api/links
+  body: json
+  auth: inherit
+}
+
+headers {
+  Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMDFLN0NWOUNTNFpYNDg4NzBaMFE2UFk0WjAiLCJleHAiOjE3NjA0ODYxODYsImlhdCI6MTc2MDM5OTc4Nn0.Jpg4JLk_KEX6rLmMhTnWdwMpf3LZsug4hvBNh3rcZyc
+}
+
+body:json {
+  {
+    "original_url": "https://www.youtube.com/watch?v=fCjjTDgU0f8",
+    "title": "Work Music"
+  }
+}
+
+settings {
+  encodeUrl: true
+}

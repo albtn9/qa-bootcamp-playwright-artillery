@@ -1,0 +1,26 @@
+meta {
+  name: Remove um link encurtado
+  type: http
+  seq: 3
+}
+
+delete {
+  url: http://localhost:3333/api/links/01K7G1BE6YKE147BYRV1BBF10C
+  body: none
+  auth: inherit
+}
+
+headers {
+  Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMDFLN0NWOUNTNFpYNDg4NzBaMFE2UFk0WjAiLCJleHAiOjE3NjA0ODQ4NjAsImlhdCI6MTc2MDM5ODQ2MH0.lr8wIj7vtp_QDskj3pdKyIGmbow1r-8L4C2YE1Gtk-k
+}
+
+body:json {
+  {
+    "original_url": "mds",
+    "title": "Work Music"
+  }
+}
+
+settings {
+  encodeUrl: true
+}
