@@ -1,7 +1,7 @@
 # 🧪 QA Bootcamp – Playwright & Artillery
 
-Projeto desenvolvido durante o Bootcamp com foco em testes funcionais e não funcionais.  
-O objetivo foi criar uma aplicação API Restful para encurtamento de links, automatizar testes com **Playwright**, validar endpoints com **Bruno**, subir o ambiente de forma isolada usando **Podman** e executar testes de performance com **Artillery**.
+Projeto desenvolvido durante os Bootcamps "Playwright Além da Interface" & "Testes de Performance com Artillery e Inteligência Artificial" com foco em testes funcionais e não funcionais.  
+O objetivo foi testar uma aplicação API Restful para encurtamento de links, automatizar testes com **Playwright**, validar endpoints com **Bruno**, subir o ambiente de forma isolada usando **Podman** e executar testes de performance com **Artillery**.
 
 ---
 
