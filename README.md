@@ -38,22 +38,22 @@ O objetivo foi testar uma aplicação API Restful para encurtamento de links, au
 ## 🚀 Como Executar o Projeto
 
 1. **Clone o repositório**
-   ```bash
+ ```bash
    git clone https://github.com/gustavoalbertine/qa-bootcamp-playwright-artillery.git
    cd qa-bootcamp-playwright-artillery
-  ```
+ ```
 
 2. **Suba o ambiente com Podman**
- ```
+ ```bash
 podman-compose up -d
  ```
 
 3. **Execute os testes automatizados**
- ```
+ ```bash
 npx playwright test
  ```
 
 4. **Execute os testes de performance**
- ```
+ ```bash
 npx artillery run tests/performance.yml
  ```
