@@ -39,7 +39,9 @@ O objetivo foi testar uma aplicação API Restful para encurtamento de links, au
 
 1. **Clone o repositório**
  ```bash
-   git clone https://github.com/gustavoalbertine/qa-bootcamp-playwright-artillery.git
+   git clone ...
+ ```
+ ```bash
    cd qa-bootcamp-playwright-artillery
  ```
 
